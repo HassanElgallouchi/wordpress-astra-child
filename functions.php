@@ -72,4 +72,36 @@ function astra_child_simplon_add_body_class( $classes ) {
 /* your code starts here 👇 */
 
 // add custom color palette to the block editor
-
+// Editor Color Palette
+add_theme_support( 'editor-color-palette', array(
+	array(
+		'name'  => __( 'White', 'astra-child-simplon' ),
+		'slug'  => 'white',
+		'color'	=> '#FFFFFF',
+	),
+  array(
+		'name'	=> __( 'Black', 'astra-child-simplon' ),
+		'slug'	=> 'black',
+		'color'	=> '#000000',
+	),
+	array(
+		'name'  => __( 'Carbon', 'astra-child-simplon' ),
+		'slug'  => 'carbon',
+		'color'	=> '#4a4a4a',
+	),
+	array(
+		'name'  => __( 'Caramel', 'astra-child-simplon' ),
+		'slug'  => 'caramel',
+		'color' => '#8b572a',
+	),
+	array(
+		'name'  => __( 'Vanilla', 'astra-child-simplon' ),
+		'slug'  => 'vanilla',
+		'color' => '#ebe5d9',
+	),
+	array(
+		'name'	=> __( 'Cappuccino', 'astra-child-simplon' ),
+		'slug'	=> 'cappuccino',
+		'color'	=> '#b09f82',
+	),
+) );
